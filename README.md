@@ -19,16 +19,16 @@ jmp _ The JMP instruction performs an unconditional jump.
 
 Conditional Jump _ These instructions are conditional jumps that are based on the status of a set of condition codes. Based on these condition codes, a number of conditional jumps can be performed. Otherwise, control proceeds to the next instruction in sequence.
    
-   je  _ jump when equal
+      je  _ jump when equal
    
-   jne _ jump when not equal
+      jne _ jump when not equal
    
-   jg  _ jump when greater than
+      jg  _ jump when greater than
    
-   jge _ jump when greater than or equal to
+      jge _ jump when greater than or equal to
    
-   jl  _ jump when less than
+      jl  _ jump when less than
    
-   jle _ jump when less than or equal to
+      jle _ jump when less than or equal to
 
 cmp _ Compare the values of the two specified operands.
