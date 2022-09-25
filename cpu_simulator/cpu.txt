@@ -1,0 +1,20 @@
+mov r1,4 
+mov r2,r1 
+add r1,4  
+dec r2 
+inc r1 
+jmp loop 
+add r1,1 
+loop  
+inc r1 
+cmp r1,6  
+je loop1 
+sub r1,5 
+loop1 
+inc r1 
+cmp r1,6 
+jg loop  
+loop2 
+inc r1 
+cmp r1,9 
+jl loop2 
